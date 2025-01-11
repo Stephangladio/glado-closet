@@ -1,0 +1,29 @@
+:root {
+    --primary-font: "";
+    --secondary-font: "";
+
+    --white: "#fff";
+    --dark: "#000";
+    --transparent: "transparent";
+    --off-white: "#f2f2f2";
+    --dark-grey: "#323232";
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a,
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+ol,
+li {
+    list-style-type: none;
+}
