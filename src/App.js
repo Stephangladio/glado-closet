@@ -4,8 +4,8 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 // Layouts
-const Guest = lazy(() => import("./pages/Guest"));
-const Protected = lazy(() => import("./pages/Protected"));
+const Guest = lazy(() => import("./Pages/Guest"));
+const Protected = lazy(() => import("./Pages/Protected"));
 
 function App() {
     return (
