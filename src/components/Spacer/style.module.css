@@ -1,0 +1,15 @@
+.s32 {
+    padding-top: 32px;
+}
+
+.s24 {
+    padding-top: 24px;
+}
+
+.s16 {
+    padding-top: 16px;
+}
+
+.s8 {
+    padding-top: 8px;
+}

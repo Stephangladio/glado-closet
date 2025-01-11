@@ -1,0 +1,10 @@
+.link {
+    padding: 8px 16px;
+    border: 1px solid var(--dark-grey);
+    border-radius: 4px;
+}
+
+.link:hover {
+    color: var(--white);
+    background-color: var(--dark-grey);
+}

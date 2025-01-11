@@ -1,10 +1,12 @@
+import React from "react";
+
 import { Navigate, Outlet } from "react-router-dom";
 
 import { authToken } from "../../helper/storage";
 
-const Guest = () => {
-    if (authToken) {
-        return <Navigate to={"/"} replace />;
+const Protected = () => {
+    if (authToken === undefined) {
+        return <Navigate to={"/guest"} replace />;
     }
 
     return (
@@ -14,4 +16,4 @@ const Guest = () => {
     );
 };
 
-export default Guest;
+export default Protected;
