@@ -7,15 +7,15 @@ import { authToken } from "../../helper/storage";
 import style from "./style.module.css";
 
 const Guest = () => {
-    if (authToken) {
-        return <Navigate to={"/"} replace />;
-    }
+	if (authToken) {
+		return <Navigate to={"/"} replace />;
+	}
 
-    return (
-        <div className={style.guestWrapper}>
-            <Outlet />
-        </div>
-    );
+	return (
+		<div>
+			<Outlet />
+		</div>
+	);
 };
 
 export default Guest;
